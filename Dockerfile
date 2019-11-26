@@ -1,6 +1,6 @@
-FROM node:8
+FROM node:12
 
-LABEL maintainer="Stephen Afam-Osemene <stephenafamo@gmail.com>"
+LABEL maintainer="Luiz Jr <luizjrdeveloper@gmail.com>"
 
 # ------------------------------------------
 # install the adonis CLI
