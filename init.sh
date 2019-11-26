@@ -8,6 +8,8 @@ fi
 
 if [[ -z "$(ls -A $PWD | grep .env)" ]]; then
 	echo "no .env file found."
+	cp .env.example .env
+	echo "Copiando .env.example para .env"
 	exit 1
 fi
 
